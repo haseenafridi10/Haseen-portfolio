@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "target": "es5",
+     "types": ["@types/node", "next", "next/types/global"],
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
