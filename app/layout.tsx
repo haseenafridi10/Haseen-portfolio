@@ -13,6 +13,10 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: 'Haseen Afridi - Front End Developer',
   description: 'Personal portfolio showcasing projects, blog posts, and professional experience',
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+  },
 };
 
 export default function RootLayout({
